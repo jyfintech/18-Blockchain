@@ -1,0 +1,35 @@
+=============== Jul 29, 2021 (EDT) ===============
+19:16:46.812179 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:16:46.833724 db@open opening
+19:16:46.836571 version@stat F·[] S·0B[] Sc·[]
+19:16:46.841759 db@janitor F·2 G·0
+19:16:46.842163 db@open done T·8.051177ms
+19:45:14.260067 db@close closing
+19:45:14.260962 db@close done T·893.617µs
+=============== Jul 29, 2021 (EDT) ===============
+19:45:32.287336 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:45:32.287962 version@stat F·[] S·0B[] Sc·[]
+19:45:32.288001 db@open opening
+19:45:32.288159 journal@recovery F·1
+19:45:32.291110 journal@recovery recovering @1
+19:45:32.314232 memdb@flush created L0@2 N·10064 S·174KiB "loc..seq,v2":"version,v1"
+19:45:32.317002 version@stat F·[1] S·174KiB[174KiB] Sc·[0.25]
+19:45:32.341935 db@janitor F·3 G·0
+19:45:32.342012 db@open done T·53.99542ms
+19:47:10.834715 db@close closing
+19:47:10.834958 db@close done T·240.371µs
+=============== Jul 29, 2021 (EDT) ===============
+19:47:37.762091 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:47:37.762298 version@stat F·[1] S·174KiB[174KiB] Sc·[0.25]
+19:47:37.762326 db@open opening
+19:47:37.762398 journal@recovery F·1
+19:47:37.764143 journal@recovery recovering @3
+19:47:37.769534 memdb@flush created L0@5 N·164 S·6KiB "loc..seq,v10066":"n:\xf9..ing,v10169"
+19:47:37.771764 version@stat F·[2] S·180KiB[180KiB] Sc·[0.50]
+19:47:37.793610 db@janitor F·4 G·0
+19:47:37.793666 db@open done T·31.32451ms
+19:47:37.797423 table@compaction L0·2 -> L1·0 S·180KiB Q·10230
+19:47:37.805286 table@build created L1@8 N·1416 S·59KiB "loc..seq,v10066":"version,v1"
+19:47:37.805622 version@stat F·[0 1] S·59KiB[0B 59KiB] Sc·[0.00 0.00]
+19:47:37.810594 table@compaction committed F-1 S-121KiB Ke·0 D·8812 T·13.117004ms
+19:47:37.811273 table@remove removed @2
